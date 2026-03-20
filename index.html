@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canvas Dashboard</title>
+  <style>
+    /* ── Reset & Variables ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0f1117;
+      --surface:   #1a1d27;
+      --surface2:  #22263a;
+      --border:    #2e3250;
+      --accent:    #6c63ff;
+      --accent2:   #a78bfa;
+      --text:      #e2e8f0;
+      --muted:     #8892a4;
+      --green:     #34d399;
+      --yellow:    #fbbf24;
+      --red:       #f87171;
+      --blue:      #60a5fa;
+      --purple:    #c084fc;
+      --new-glow:  rgba(108,99,255,0.15);
+      --radius:    12px;
+      --sidebar:   260px;
+      --font:      'Inter', system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Scrollbar ──────────────────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    /* ── Layout ─────────────────────────────────────────────────────── */
+    .app { display: flex; flex: 1; }
+
+    /* ── Sidebar ────────────────────────────────────────────────────── */
+    .sidebar {
+      width: var(--sidebar);
+      min-height: 100vh;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 0;
+      overflow-y: auto;
+    }
+
+    .logo {
+      padding: 24px 20px 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .logo h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent2), var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -0.3px;
+    }
+    .logo .tagline {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+
+    .nav { padding: 12px 0; flex: 1; }
+    .nav-label {
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 8px 20px 4px;
+    }
+    .nav-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      padding: 9px 20px;
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: color 0.15s, background 0.15s;
+      text-align: left;
+      border-radius: 0;
+    }
+    .nav-btn:hover { color: var(--text); background: var(--surface2); }
+    .nav-btn.active {
+      color: var(--accent2);
+      background: rgba(108,99,255,0.12);
+      font-weight: 500;
+    }
+    .nav-btn .icon { font-size: 1rem; width: 20px; text-align: center; }
+    .nav-btn .badge {
+      margin-left: auto;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 10px;
+      min-width: 20px;
+      text-align: center;
+    }
+
+    .course-filter { padding: 8px 0; border-top: 1px solid var(--border); }
+    .course-chip {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      padding: 8px 20px;
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: color 0.15s, background 0.15s;
+      text-align: left;
+    }
+    .course-chip:hover { color: var(--text); background: var(--surface2); }
+    .course-chip.active { color: var(--text); font-weight: 500; }
+    .course-chip .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .course-chip .course-code {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .sync-info {
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+    .sync-info .sync-time { color: var(--text); font-weight: 500; }
+    .sync-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 6px;
+      background: rgba(52,211,153,0.12);
+      color: var(--green);
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+
+    /* ── Main content ───────────────────────────────────────────────── */
+    .main {
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 28px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 10;
+    }
+    .topbar h2 { font-size: 1rem; font-weight: 600; flex: 1; }
+    .search {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 12px;
+      color: var(--text);
+      font-size: 0.85rem;
+      width: 220px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .search::placeholder { color: var(--muted); }
+    .search:focus { border-color: var(--accent); }
+
+    .content { padding: 24px 28px; flex: 1; }
+
+    /* ── Section headers ────────────────────────────────────────────── */
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+      margin-top: 8px;
+    }
+    .section-header h3 { font-size: 0.95rem; font-weight: 600; }
+    .section-header .count {
+      font-size: 0.75rem;
+      color: var(--muted);
+      background: var(--surface2);
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+    .section-sep { height: 1px; background: var(--border); flex: 1; }
+
+    /* ── Cards ──────────────────────────────────────────────────────── */
+    .card-grid {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      transition: border-color 0.15s, transform 0.1s;
+      cursor: default;
+      text-decoration: none;
+      color: inherit;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .card.is-new {
+      border-color: rgba(108,99,255,0.5);
+      background: linear-gradient(135deg, var(--surface) 0%, rgba(108,99,255,0.07) 100%);
+    }
+    .card.is-overdue { border-left: 3px solid var(--red); }
+    .card.is-due-soon { border-left: 3px solid var(--yellow); }
+    .card.is-submitted { border-left: 3px solid var(--green); }
+
+    .card-icon {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .card-icon.assignment { background: rgba(96,165,250,0.15); }
+    .card-icon.quiz       { background: rgba(192,132,252,0.15); }
+    .card-icon.module_item{ background: rgba(251,191,36,0.15); }
+    .card-icon.announcement{ background: rgba(52,211,153,0.15); }
+
+    .card-body { flex: 1; min-width: 0; }
+    .card-title {
+      font-size: 0.9rem;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 4px;
+    }
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .card-course {
+      background: var(--surface2);
+      padding: 2px 7px;
+      border-radius: 5px;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 160px;
+    }
+    .card-message {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 6px;
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* ── Tags / Badges ──────────────────────────────────────────────── */
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      padding: 2px 7px;
+      border-radius: 5px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .tag-new      { background: rgba(108,99,255,0.2); color: var(--accent2); }
+    .tag-submitted{ background: rgba(52,211,153,0.15); color: var(--green); }
+    .tag-missing  { background: rgba(248,113,113,0.15); color: var(--red); }
+    .tag-graded   { background: rgba(96,165,250,0.15); color: var(--blue); }
+    .tag-late     { background: rgba(251,191,36,0.15); color: var(--yellow); }
+    .tag-pending  { background: rgba(251,191,36,0.15); color: var(--yellow); }
+    .tag-untaken  { background: rgba(248,113,113,0.15); color: var(--red); }
+    .tag-complete { background: rgba(52,211,153,0.15); color: var(--green); }
+    .tag-due-soon { background: rgba(251,191,36,0.15); color: var(--yellow); }
+    .tag-overdue  { background: rgba(248,113,113,0.2); color: var(--red); }
+    .tag-module   { background: rgba(251,191,36,0.12); color: var(--yellow); }
+
+    /* ── Due date pill ──────────────────────────────────────────────── */
+    .due-pill {
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+    .due-pill.overdue { color: var(--red); }
+    .due-pill.soon    { color: var(--yellow); }
+    .due-pill.ok      { color: var(--muted); }
+
+    /* ── Open link button ───────────────────────────────────────────── */
+    .card-link {
+      flex-shrink: 0;
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-decoration: none;
+      padding: 4px;
+      border-radius: 6px;
+      transition: color 0.15s, background 0.15s;
+    }
+    .card-link:hover { color: var(--text); background: var(--surface2); }
+
+    /* ── Empty state ────────────────────────────────────────────────── */
+    .empty {
+      text-align: center;
+      padding: 48px 20px;
+      color: var(--muted);
+    }
+    .empty .empty-icon { font-size: 2.5rem; margin-bottom: 12px; }
+    .empty p { font-size: 0.9rem; }
+
+    /* ── Loading ────────────────────────────────────────────────────── */
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      color: var(--muted);
+      gap: 10px;
+      font-size: 0.9rem;
+    }
+    .spinner {
+      width: 20px; height: 20px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Error ──────────────────────────────────────────────────────── */
+    .error-banner {
+      background: rgba(248,113,113,0.1);
+      border: 1px solid rgba(248,113,113,0.3);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      color: var(--red);
+      font-size: 0.875rem;
+    }
+
+    /* ── Responsive ─────────────────────────────────────────────────── */
+    @media (max-width: 700px) {
+      .sidebar { display: none; }
+      .content { padding: 16px; }
+      .topbar { padding: 12px 16px; }
+      .search { width: 150px; }
+    }
+  </style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ── Sidebar ───────────────────────────────────────────────────── -->
+  <aside class="sidebar">
+    <div class="logo">
+      <h1>Canvas Dashboard</h1>
+      <div class="tagline">Your one-stop class overview</div>
+    </div>
+
+    <nav class="nav">
+      <div class="nav-label">Views</div>
+      <button class="nav-btn active" data-view="new" onclick="setView('new', this)">
+        <span class="icon">✨</span> What's New
+        <span class="badge" id="badge-new">0</span>
+      </button>
+      <button class="nav-btn" data-view="due" onclick="setView('due', this)">
+        <span class="icon">📅</span> Due Dates
+      </button>
+      <button class="nav-btn" data-view="announcements" onclick="setView('announcements', this)">
+        <span class="icon">📣</span> Announcements
+      </button>
+      <button class="nav-btn" data-view="modules" onclick="setView('modules', this)">
+        <span class="icon">🎬</span> Modules
+      </button>
+      <button class="nav-btn" data-view="all" onclick="setView('all', this)">
+        <span class="icon">📚</span> Everything
+      </button>
+
+      <div class="nav-label" style="margin-top:8px;">Courses</div>
+      <button class="course-chip active" data-course="all" onclick="setCourse('all', this)">
+        <span class="dot" style="background:var(--accent)"></span>
+        <span class="course-code">All Courses</span>
+      </button>
+      <div id="course-list"></div>
+    </nav>
+
+    <div class="sync-info">
+      <div>Last synced</div>
+      <div class="sync-time" id="sync-time">—</div>
+      <div class="sync-badge">🟢 Live</div>
+    </div>
+  </aside>
+
+  <!-- ── Main ──────────────────────────────────────────────────────── -->
+  <main class="main">
+    <div class="topbar">
+      <h2 id="view-title">What's New</h2>
+      <input class="search" type="text" placeholder="🔍  Search..." oninput="onSearch(this.value)" />
+    </div>
+
+    <div class="content" id="content">
+      <div class="loading"><div class="spinner"></div> Loading your Canvas data…</div>
+    </div>
+  </main>
+</div>
+
+<script>
+  // ── State ────────────────────────────────────────────────────────────
+  let DATA = null;
+  let currentView = 'new';
+  let currentCourse = 'all';
+  let searchQuery = '';
+
+  // Assign a stable color per course
+  const PALETTE = [
+    '#6c63ff','#f59e0b','#10b981','#3b82f6','#ec4899',
+    '#14b8a6','#f97316','#8b5cf6','#06b6d4','#84cc16'
+  ];
+  const courseColors = {};
+  function courseColor(id) {
+    if (!courseColors[id]) {
+      const idx = Object.keys(courseColors).length % PALETTE.length;
+      courseColors[id] = PALETTE[idx];
+    }
+    return courseColors[id];
+  }
+
+  // ── Fetch data ───────────────────────────────────────────────────────
+  async function loadData() {
+    try {
+      const res = await fetch('data.json?t=' + Date.now());
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      DATA = await res.json();
+      init();
+    } catch (e) {
+      document.getElementById('content').innerHTML =
+        `<div class="error-banner">⚠️ Could not load data.json: ${e.message}<br>
+        Make sure the sync script has run at least once and the file exists in your repo.</div>`;
+    }
+  }
+
+  // ── Init ────────────────────────────────────────────────────────────
+  function init() {
+    // Sync time
+    if (DATA.last_updated) {
+      const d = new Date(DATA.last_updated);
+      document.getElementById('sync-time').textContent = d.toLocaleString();
+    }
+
+    // Badge count
+    const newCount = DATA.items.filter(i => i.is_new).length;
+    document.getElementById('badge-new').textContent = newCount;
+
+    // Course list
+    buildCourseList();
+    render();
+  }
+
+  function buildCourseList() {
+    const container = document.getElementById('course-list');
+    container.innerHTML = '';
+    (DATA.courses || []).forEach(c => {
+      const color = courseColor(c.id);
+      const btn = document.createElement('button');
+      btn.className = 'course-chip';
+      btn.dataset.course = c.id;
+      btn.onclick = () => setCourse(c.id, btn);
+      btn.innerHTML = `
+        <span class="dot" style="background:${color}"></span>
+        <span class="course-code" title="${c.name}">${c.code || c.name}</span>
+      `;
+      container.appendChild(btn);
+    });
+  }
+
+  // ── Filtering logic ──────────────────────────────────────────────────
+  function filteredItems() {
+    let items = DATA.items;
+
+    // Course filter
+    if (currentCourse !== 'all') {
+      items = items.filter(i => String(i.course_id) === String(currentCourse));
+    }
+
+    // Search
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      items = items.filter(i =>
+        (i.title || '').toLowerCase().includes(q) ||
+        (i.course_name || '').toLowerCase().includes(q) ||
+        (i.message || '').toLowerCase().includes(q) ||
+        (i.module_name || '').toLowerCase().includes(q)
+      );
+    }
+
+    // View filter
+    switch (currentView) {
+      case 'new':
+        return items.filter(i => i.is_new);
+      case 'due':
+        return items
+          .filter(i => i.due_at && i.type !== 'announcement')
+          .sort((a, b) => new Date(a.due_at) - new Date(b.due_at));
+      case 'announcements':
+        return items
+          .filter(i => i.type === 'announcement')
+          .sort((a, b) => new Date(b.posted_at || 0) - new Date(a.posted_at || 0));
+      case 'modules':
+        return items.filter(i => i.type === 'module_item');
+      case 'all':
+      default:
+        return items;
+    }
+  }
+
+  // ── Render ──────────────────────────────────────────────────────────
+  function render() {
+    const items = filteredItems();
+    const content = document.getElementById('content');
+
+    const viewLabels = {
+      new: 'What\'s New',
+      due: 'Due Dates',
+      announcements: 'Announcements',
+      modules: 'Modules & Videos',
+      all: 'Everything'
+    };
+    document.getElementById('view-title').textContent = viewLabels[currentView] || '';
+
+    if (items.length === 0) {
+      content.innerHTML = `
+        <div class="empty">
+          <div class="empty-icon">${currentView === 'new' ? '🎉' : '🔍'}</div>
+          <p>${currentView === 'new' ? 'Nothing new since the last sync.' : 'No items match your filters.'}</p>
+        </div>`;
+      return;
+    }
+
+    // Group items for 'new' view by type category
+    if (currentView === 'new') {
+      content.innerHTML = renderGrouped(items);
+    } else {
+      content.innerHTML = `
+        <div class="section-header">
+          <span class="count">${items.length} item${items.length !== 1 ? 's' : ''}</span>
+          <span class="section-sep"></span>
+        </div>
+        <div class="card-grid">${items.map(renderCard).join('')}</div>`;
+    }
+  }
+
+  function renderGrouped(items) {
+    const groups = {
+      announcement: { label: '📣 New Announcements', icon: '📣', items: [] },
+      assignment:   { label: '📝 New Assignments',   icon: '📝', items: [] },
+      quiz:         { label: '🧪 New Quizzes',        icon: '🧪', items: [] },
+      module_item:  { label: '🎬 New Module Content', icon: '🎬', items: [] },
+    };
+    items.forEach(i => {
+      if (groups[i.type]) groups[i.type].items.push(i);
+    });
+
+    return Object.entries(groups)
+      .filter(([, g]) => g.items.length > 0)
+      .map(([, g]) => `
+        <div class="section-header">
+          <h3>${g.label}</h3>
+          <span class="count">${g.items.length}</span>
+          <span class="section-sep"></span>
+        </div>
+        <div class="card-grid" style="margin-bottom:32px">
+          ${g.items.map(renderCard).join('')}
+        </div>
+      `).join('');
+  }
+
+  function renderCard(item) {
+    const color = courseColor(item.course_id);
+    const typeIcon = { assignment: '📝', quiz: '🧪', module_item: '🎬', announcement: '📣' }[item.type] || '📄';
+    const newTag = item.is_new ? `<span class="tag tag-new">✨ New</span>` : '';
+    const url = item.url || '#';
+
+    let tags = '';
+    let duePill = '';
+    let extraMeta = '';
+
+    // ── Assignment / Quiz status ────────────────────────────────────
+    if (item.type === 'assignment' || item.type === 'quiz') {
+      const state = item.submission_state || 'unsubmitted';
+      const stateMap = {
+        submitted:       ['tag-submitted', '✓ Submitted'],
+        graded:          ['tag-graded',    '★ Graded'],
+        pending_review:  ['tag-pending',   '⧗ Pending'],
+        unsubmitted:     ['tag-missing',   '✗ Missing'],
+        untaken:         ['tag-untaken',   '✗ Not Taken'],
+        unknown:         ['tag-missing',   '? Unknown'],
+      };
+      const [cls, label] = stateMap[state] || ['tag-missing', '? ' + state];
+      tags += `<span class="tag ${cls}">${label}</span>`;
+
+      if (item.grade) tags += `<span class="tag tag-graded">Grade: ${item.grade}</span>`;
+      if (item.score != null && item.points_possible)
+        tags += `<span class="tag tag-graded">${item.score}/${item.points_possible} pts</span>`;
+
+      if (item.due_at) {
+        const due = new Date(item.due_at);
+        const now = new Date();
+        const hoursLeft = (due - now) / 36e5;
+        const submitted = ['submitted', 'graded'].includes(state);
+        let cls2 = 'ok', prefix = 'Due ';
+        if (!submitted && hoursLeft < 0)  { cls2 = 'overdue'; prefix = 'Overdue · '; }
+        else if (!submitted && hoursLeft < 48) { cls2 = 'soon'; }
+        duePill = `<span class="due-pill ${cls2}">${prefix}${fmtDate(due)}</span>`;
+      }
+    }
+
+    // ── Module item ─────────────────────────────────────────────────
+    if (item.type === 'module_item') {
+      tags += `<span class="tag tag-module">${item.item_type || 'Item'}</span>`;
+      if (item.completed) tags += `<span class="tag tag-complete">✓ Done</span>`;
+      else if (item.completion_requirement) tags += `<span class="tag tag-missing">○ To Do</span>`;
+      if (item.module_name) extraMeta = `<span>${item.module_name}</span>`;
+    }
+
+    // ── Announcement ────────────────────────────────────────────────
+    let messageEl = '';
+    if (item.type === 'announcement') {
+      if (item.posted_at) duePill = `<span class="due-pill ok">${fmtDate(new Date(item.posted_at))}</span>`;
+      if (item.message) messageEl = `<div class="card-message">${escHtml(item.message)}</div>`;
+    }
+
+    return `
+      <a class="card ${item.is_new ? 'is-new' : ''} ${dueCls(item)}"
+         href="${url}" target="_blank" rel="noopener">
+        <div class="card-icon ${item.type}">${typeIcon}</div>
+        <div class="card-body">
+          <div class="card-title" title="${escHtml(item.title)}">${escHtml(item.title)}</div>
+          <div class="card-meta">
+            <span class="card-course" style="border-left:3px solid ${color}; padding-left:6px;"
+                  title="${escHtml(item.course_name)}">${escHtml(item.course_code || item.course_name)}</span>
+            ${duePill}
+            ${extraMeta}
+            ${tags}
+            ${newTag}
+          </div>
+          ${messageEl}
+        </div>
+        <span class="card-link" title="Open in Canvas">↗</span>
+      </a>`;
+  }
+
+  function dueCls(item) {
+    if (!item.due_at || item.type === 'announcement') return '';
+    const state = item.submission_state || '';
+    if (['submitted', 'graded'].includes(state)) return 'is-submitted';
+    const hours = (new Date(item.due_at) - new Date()) / 36e5;
+    if (hours < 0) return 'is-overdue';
+    if (hours < 48) return 'is-due-soon';
+    return '';
+  }
+
+  // ── Utilities ────────────────────────────────────────────────────────
+  function fmtDate(d) {
+    const now = new Date();
+    const diff = d - now;
+    const absDays = Math.abs(diff / 864e5);
+    if (absDays < 1) {
+      const h = Math.abs(Math.round(diff / 36e5));
+      if (diff < 0) return `${h}h ago`;
+      return h === 0 ? 'due now' : `in ${h}h`;
+    }
+    if (absDays < 7) {
+      const days = Math.round(absDays);
+      return diff < 0 ? `${days}d ago` : `in ${days}d`;
+    }
+    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  }
+
+  function escHtml(str) {
+    return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // ── Controls ─────────────────────────────────────────────────────────
+  function setView(view, btn) {
+    currentView = view;
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (DATA) render();
+  }
+
+  function setCourse(course, btn) {
+    currentCourse = String(course);
+    document.querySelectorAll('.course-chip').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (DATA) render();
+  }
+
+  function onSearch(val) {
+    searchQuery = val.trim();
+    if (DATA) render();
+  }
+
+  // ── Boot ─────────────────────────────────────────────────────────────
+  loadData();
+
+  // Auto-refresh every 5 minutes
+  setInterval(loadData, 5 * 60 * 1000);
+</script>
+</body>
+</html>
