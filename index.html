@@ -200,7 +200,7 @@
     .cal-range { font-size: 0.75rem; color: var(--muted); margin-left: 8px; }
     .cal-grid { width: 100%; border-collapse: collapse; }
     .cal-day-labels {
-      display: grid; grid-template-columns: repeat(7, 1fr);
+      display: grid; grid-template-columns: repeat(7, minmax(0, 1fr));
       margin-bottom: 4px;
     }
     .cal-day-label {
@@ -209,7 +209,7 @@
       padding: 4px 0;
     }
     .cal-weeks { display: flex; flex-direction: column; gap: 4px; }
-    .cal-week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+    .cal-week { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
     .cal-day {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -533,10 +533,19 @@
       case 'new': return items.filter(i => i.is_new);
       case 'due': {
         const withDue = items.filter(i => i.due_at && i.type !== 'announcement');
-        return {
-          upcoming: withDue.filter(i => !DONE_STATES.has(i.submission_state)).sort((a, b) => new Date(a.due_at) - new Date(b.due_at)),
-          completed: withDue.filter(i => DONE_STATES.has(i.submission_state)).sort((a, b) => new Date(b.due_at) - new Date(a.due_at)),
-        };
+        // Status priority: unsubmitted/untaken = 0, pending_review = 1, done = 2
+        const statusPriority = s => s === 'pending_review' ? 1 : DONE_STATES.has(s) ? 2 : 0;
+        const upcoming = withDue
+          .filter(i => !DONE_STATES.has(i.submission_state))
+          .sort((a, b) => {
+            const sp = statusPriority(a.submission_state) - statusPriority(b.submission_state);
+            return sp !== 0 ? sp : new Date(a.due_at) - new Date(b.due_at);
+          });
+        // Completed: soonest due at top, oldest at bottom
+        const completed = withDue
+          .filter(i => DONE_STATES.has(i.submission_state))
+          .sort((a, b) => new Date(a.due_at) - new Date(b.due_at));
+        return { upcoming, completed };
       }
       case 'announcements': return items.filter(i => i.type === 'announcement').sort((a, b) => new Date(b.posted_at || 0) - new Date(a.posted_at || 0));
       case 'modules': return items.filter(i => i.type === 'module_item').sort((a, b) => (b.position || 0) - (a.position || 0));
