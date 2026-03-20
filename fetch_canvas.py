@@ -440,7 +440,8 @@ def fetch_all() -> dict:
 
             merged[ann["id"]] = ann
 
-    all_items = list(merged.values())
+    # Strip out any items from excluded courses (e.g. old WI25 data still in snapshot)
+    all_items = [i for i in merged.values() if not _is_excluded(i.get("course_name", ""))]
     new_count = sum(1 for i in all_items if i.get("is_new"))
     print(f"\nTotal: {len(all_items)} items ({new_count} new) across {len(courses_list)} courses.")
 
