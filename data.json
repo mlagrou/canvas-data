@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T02:07:20.430773+00:00",
+  "last_updated": "2026-03-20T02:39:29.441788+00:00",
   "courses": [
     {
       "id": 76454,
@@ -20,11 +20,6 @@
       "id": 89934,
       "name": "CS 411 90 WI26",
       "code": "CS 411 90 WI26"
-    },
-    {
-      "id": 83612,
-      "name": "THEA 128B! 01 WI25",
-      "code": "THEA 128B! 01 WI25"
     }
   ],
   "items": [
@@ -42,7 +37,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/76454/assignments/1308188",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -58,7 +56,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/76454/assignments/1308186",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -74,7 +75,10 @@
       "grade": "2",
       "score": 2.0,
       "url": "https://svsu.instructure.com/courses/76454/assignments/1308182",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -90,7 +94,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/76454/assignments/1308168",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -106,7 +113,10 @@
       "grade": "29",
       "score": 29.0,
       "url": "https://svsu.instructure.com/courses/76454/assignments/1308172",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -122,7 +132,10 @@
       "grade": "8",
       "score": 8.0,
       "url": "https://svsu.instructure.com/courses/76454/assignments/1308180",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -138,7 +151,10 @@
       "grade": "6",
       "score": 6.0,
       "url": "https://svsu.instructure.com/courses/76454/assignments/1308184",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -154,7 +170,10 @@
       "grade": "4",
       "score": 4.0,
       "url": "https://svsu.instructure.com/courses/76454/assignments/1308178",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -170,7 +189,10 @@
       "grade": "6",
       "score": 6.0,
       "url": "https://svsu.instructure.com/courses/76454/assignments/1308170",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "module_item",
@@ -185,7 +207,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339711",
-      "is_new": false
+      "is_new": false,
+      "position": 2339711
     },
     {
       "type": "module_item",
@@ -200,7 +223,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339713",
-      "is_new": false
+      "is_new": false,
+      "position": 2339713
     },
     {
       "type": "module_item",
@@ -215,7 +239,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339715",
-      "is_new": false
+      "is_new": false,
+      "position": 2339715
     },
     {
       "type": "module_item",
@@ -230,7 +255,8 @@
       "completion_requirement": "min_score",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339717",
-      "is_new": false
+      "is_new": false,
+      "position": 2339717
     },
     {
       "type": "module_item",
@@ -245,7 +271,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339719",
-      "is_new": false
+      "is_new": false,
+      "position": 2339719
     },
     {
       "type": "module_item",
@@ -260,7 +287,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339721",
-      "is_new": false
+      "is_new": false,
+      "position": 2339721
     },
     {
       "type": "module_item",
@@ -275,7 +303,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339723",
-      "is_new": false
+      "is_new": false,
+      "position": 2339723
     },
     {
       "type": "module_item",
@@ -290,7 +319,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339725",
-      "is_new": false
+      "is_new": false,
+      "position": 2339725
     },
     {
       "type": "module_item",
@@ -305,7 +335,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339727",
-      "is_new": false
+      "is_new": false,
+      "position": 2339727
     },
     {
       "type": "module_item",
@@ -320,7 +351,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339729",
-      "is_new": false
+      "is_new": false,
+      "position": 2339729
     },
     {
       "type": "module_item",
@@ -335,7 +367,8 @@
       "completion_requirement": "min_score",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339731",
-      "is_new": false
+      "is_new": false,
+      "position": 2339731
     },
     {
       "type": "module_item",
@@ -350,7 +383,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339733",
-      "is_new": false
+      "is_new": false,
+      "position": 2339733
     },
     {
       "type": "module_item",
@@ -365,7 +399,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339735",
-      "is_new": false
+      "is_new": false,
+      "position": 2339735
     },
     {
       "type": "module_item",
@@ -380,7 +415,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2469363",
-      "is_new": false
+      "is_new": false,
+      "position": 2469363
     },
     {
       "type": "module_item",
@@ -395,7 +431,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2469365",
-      "is_new": false
+      "is_new": false,
+      "position": 2469365
     },
     {
       "type": "module_item",
@@ -410,7 +447,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2469367",
-      "is_new": false
+      "is_new": false,
+      "position": 2469367
     },
     {
       "type": "module_item",
@@ -425,7 +463,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339737",
-      "is_new": false
+      "is_new": false,
+      "position": 2339737
     },
     {
       "type": "module_item",
@@ -440,7 +479,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2469369",
-      "is_new": false
+      "is_new": false,
+      "position": 2469369
     },
     {
       "type": "module_item",
@@ -455,7 +495,8 @@
       "completion_requirement": "min_score",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339739",
-      "is_new": false
+      "is_new": false,
+      "position": 2339739
     },
     {
       "type": "module_item",
@@ -470,7 +511,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339741",
-      "is_new": false
+      "is_new": false,
+      "position": 2339741
     },
     {
       "type": "module_item",
@@ -485,7 +527,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339743",
-      "is_new": false
+      "is_new": false,
+      "position": 2339743
     },
     {
       "type": "module_item",
@@ -500,7 +543,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339745",
-      "is_new": false
+      "is_new": false,
+      "position": 2339745
     },
     {
       "type": "module_item",
@@ -515,7 +559,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339749",
-      "is_new": false
+      "is_new": false,
+      "position": 2339749
     },
     {
       "type": "module_item",
@@ -530,7 +575,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339751",
-      "is_new": false
+      "is_new": false,
+      "position": 2339751
     },
     {
       "type": "module_item",
@@ -545,7 +591,8 @@
       "completion_requirement": "min_score",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339753",
-      "is_new": false
+      "is_new": false,
+      "position": 2339753
     },
     {
       "type": "module_item",
@@ -560,7 +607,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339757",
-      "is_new": false
+      "is_new": false,
+      "position": 2339757
     },
     {
       "type": "module_item",
@@ -575,7 +623,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339759",
-      "is_new": false
+      "is_new": false,
+      "position": 2339759
     },
     {
       "type": "module_item",
@@ -590,7 +639,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339761",
-      "is_new": false
+      "is_new": false,
+      "position": 2339761
     },
     {
       "type": "module_item",
@@ -605,7 +655,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339763",
-      "is_new": false
+      "is_new": false,
+      "position": 2339763
     },
     {
       "type": "module_item",
@@ -620,7 +671,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339765",
-      "is_new": false
+      "is_new": false,
+      "position": 2339765
     },
     {
       "type": "module_item",
@@ -635,7 +687,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339767",
-      "is_new": false
+      "is_new": false,
+      "position": 2339767
     },
     {
       "type": "module_item",
@@ -650,7 +703,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339769",
-      "is_new": false
+      "is_new": false,
+      "position": 2339769
     },
     {
       "type": "module_item",
@@ -665,7 +719,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339771",
-      "is_new": false
+      "is_new": false,
+      "position": 2339771
     },
     {
       "type": "module_item",
@@ -680,7 +735,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339773",
-      "is_new": false
+      "is_new": false,
+      "position": 2339773
     },
     {
       "type": "module_item",
@@ -695,7 +751,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339775",
-      "is_new": false
+      "is_new": false,
+      "position": 2339775
     },
     {
       "type": "module_item",
@@ -710,7 +767,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339777",
-      "is_new": false
+      "is_new": false,
+      "position": 2339777
     },
     {
       "type": "module_item",
@@ -725,7 +783,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339779",
-      "is_new": false
+      "is_new": false,
+      "position": 2339779
     },
     {
       "type": "module_item",
@@ -740,7 +799,8 @@
       "completion_requirement": "min_score",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339781",
-      "is_new": false
+      "is_new": false,
+      "position": 2339781
     },
     {
       "type": "module_item",
@@ -755,7 +815,8 @@
       "completion_requirement": "must_view",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339783",
-      "is_new": false
+      "is_new": false,
+      "position": 2339783
     },
     {
       "type": "module_item",
@@ -770,7 +831,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339785",
-      "is_new": false
+      "is_new": false,
+      "position": 2339785
     },
     {
       "type": "module_item",
@@ -785,7 +847,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339787",
-      "is_new": false
+      "is_new": false,
+      "position": 2339787
     },
     {
       "type": "module_item",
@@ -800,7 +863,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339789",
-      "is_new": false
+      "is_new": false,
+      "position": 2339789
     },
     {
       "type": "module_item",
@@ -815,7 +879,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339791",
-      "is_new": false
+      "is_new": false,
+      "position": 2339791
     },
     {
       "type": "module_item",
@@ -830,7 +895,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339793",
-      "is_new": false
+      "is_new": false,
+      "position": 2339793
     },
     {
       "type": "module_item",
@@ -845,7 +911,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339795",
-      "is_new": false
+      "is_new": false,
+      "position": 2339795
     },
     {
       "type": "module_item",
@@ -860,7 +927,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339797",
-      "is_new": false
+      "is_new": false,
+      "position": 2339797
     },
     {
       "type": "module_item",
@@ -875,7 +943,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339799",
-      "is_new": false
+      "is_new": false,
+      "position": 2339799
     },
     {
       "type": "module_item",
@@ -890,7 +959,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339801",
-      "is_new": false
+      "is_new": false,
+      "position": 2339801
     },
     {
       "type": "module_item",
@@ -905,7 +975,8 @@
       "completion_requirement": "min_score",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339803",
-      "is_new": false
+      "is_new": false,
+      "position": 2339803
     },
     {
       "type": "module_item",
@@ -920,7 +991,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339805",
-      "is_new": false
+      "is_new": false,
+      "position": 2339805
     },
     {
       "type": "module_item",
@@ -935,7 +1007,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339807",
-      "is_new": false
+      "is_new": false,
+      "position": 2339807
     },
     {
       "type": "module_item",
@@ -950,7 +1023,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339809",
-      "is_new": false
+      "is_new": false,
+      "position": 2339809
     },
     {
       "type": "module_item",
@@ -965,7 +1039,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339811",
-      "is_new": false
+      "is_new": false,
+      "position": 2339811
     },
     {
       "type": "module_item",
@@ -980,7 +1055,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339813",
-      "is_new": false
+      "is_new": false,
+      "position": 2339813
     },
     {
       "type": "module_item",
@@ -995,7 +1071,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339815",
-      "is_new": false
+      "is_new": false,
+      "position": 2339815
     },
     {
       "type": "module_item",
@@ -1010,7 +1087,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339817",
-      "is_new": false
+      "is_new": false,
+      "position": 2339817
     },
     {
       "type": "module_item",
@@ -1025,7 +1103,8 @@
       "completion_requirement": "min_score",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339819",
-      "is_new": false
+      "is_new": false,
+      "position": 2339819
     },
     {
       "type": "module_item",
@@ -1040,7 +1119,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339821",
-      "is_new": false
+      "is_new": false,
+      "position": 2339821
     },
     {
       "type": "module_item",
@@ -1055,7 +1135,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339823",
-      "is_new": false
+      "is_new": false,
+      "position": 2339823
     },
     {
       "type": "module_item",
@@ -1070,7 +1151,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339825",
-      "is_new": false
+      "is_new": false,
+      "position": 2339825
     },
     {
       "type": "module_item",
@@ -1085,7 +1167,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339827",
-      "is_new": false
+      "is_new": false,
+      "position": 2339827
     },
     {
       "type": "module_item",
@@ -1100,7 +1183,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339829",
-      "is_new": false
+      "is_new": false,
+      "position": 2339829
     },
     {
       "type": "module_item",
@@ -1115,7 +1199,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339831",
-      "is_new": false
+      "is_new": false,
+      "position": 2339831
     },
     {
       "type": "module_item",
@@ -1130,7 +1215,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339833",
-      "is_new": false
+      "is_new": false,
+      "position": 2339833
     },
     {
       "type": "module_item",
@@ -1145,7 +1231,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339835",
-      "is_new": false
+      "is_new": false,
+      "position": 2339835
     },
     {
       "type": "module_item",
@@ -1160,7 +1247,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339837",
-      "is_new": false
+      "is_new": false,
+      "position": 2339837
     },
     {
       "type": "module_item",
@@ -1175,7 +1263,8 @@
       "completion_requirement": "min_score",
       "completed": true,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339839",
-      "is_new": false
+      "is_new": false,
+      "position": 2339839
     },
     {
       "type": "module_item",
@@ -1190,7 +1279,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/76454/modules/items/2339841",
-      "is_new": false
+      "is_new": false,
+      "position": 2339841
     },
     {
       "type": "announcement",
@@ -1199,7 +1289,8 @@
       "course_name": "24/FA Express Orientation",
       "course_code": "24/FA Express Orientation",
       "title": "Get Involved with Orientation Programs - Apply to be an OL today! ",
-      "message": "Hello! Applications to join the next team of Orientation Leaders for the 2025 Season are now open! Orientation Leaders are vital members of the Orientation Programs Office who welcome and assist incoming first-year students and their families through their orientation process (SOAR, Fresh Start, etc.). We are seeking knowledgeable, friendly, and positive students to fill this critical leadership role and help us introduce new Cardinals to life at SVSU. This is a PAID opportunity. &nbsp; See the Job Details and Apply today at: &nbsp; https://svsu.joinhandshake.com/stu/jobs/9527568 Applications ",
+      "message": "Hello! Applications to join the next team of Orientation Leaders for the 2025 Season are now open! Orientation Leaders are vital members of the Orientation Programs Office who welcome and assist incoming first-year students and their families through their orientation process (SOAR, Fresh Start, etc.). We are seeking knowledgeable, friendly, and positive students to fill this critical leadership role and help us introduce new Cardinals to life at SVSU. This is a PAID opportunity. &nbsp; See the Job Details and Apply today at: &nbsp; https://svsu.joinhandshake.com/stu/jobs/9527568 Applications close on Sunday, March 9 th at 11:59pm (final day of Spring Break) &nbsp; Questions about the job? Come to our Info Night collaboration with Program Board\u2019s Coffee House on February 17th&nbsp;from 8 \u2013",
+      "summary": [],
       "posted_at": "2025-02-06T18:36:31Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/76454/discussion_topics/1440604",
@@ -1219,7 +1310,10 @@
       "grade": "25",
       "score": 25.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1760630",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1235,7 +1329,10 @@
       "grade": "94",
       "score": 94.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1767422",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1251,7 +1348,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1776464",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1267,7 +1367,10 @@
       "grade": "3",
       "score": 3.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1765714",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1283,7 +1386,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1758836",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1299,7 +1405,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1761514",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1315,7 +1424,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1761516",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1331,7 +1443,10 @@
       "grade": "20",
       "score": 20.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1765924",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1347,7 +1462,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1766586",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1363,7 +1481,10 @@
       "grade": "7",
       "score": 7.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1767570",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1379,7 +1500,10 @@
       "grade": "15",
       "score": 15.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1772388",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1395,7 +1519,10 @@
       "grade": "8",
       "score": 8.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1772392",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1411,7 +1538,10 @@
       "grade": "93%",
       "score": 93.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1754660",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1427,7 +1557,10 @@
       "grade": "14",
       "score": 14.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1766376",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1443,7 +1576,10 @@
       "grade": "0",
       "score": 0.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1770382",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1459,7 +1595,10 @@
       "grade": "10",
       "score": 10.0,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1771768",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1475,7 +1614,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1771916",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -1491,7 +1633,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/90072/assignments/1776468",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "module_item",
@@ -1506,7 +1651,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3393151",
-      "is_new": false
+      "is_new": false,
+      "position": 3393151
     },
     {
       "type": "module_item",
@@ -1521,7 +1667,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3393179
     },
     {
       "type": "module_item",
@@ -1536,7 +1683,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393181",
-      "is_new": false
+      "is_new": false,
+      "position": 3393181
     },
     {
       "type": "module_item",
@@ -1551,7 +1699,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393183",
-      "is_new": false
+      "is_new": false,
+      "position": 3393183
     },
     {
       "type": "module_item",
@@ -1566,7 +1715,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393185",
-      "is_new": false
+      "is_new": false,
+      "position": 3393185
     },
     {
       "type": "module_item",
@@ -1581,7 +1731,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3393225
     },
     {
       "type": "module_item",
@@ -1596,7 +1747,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393187",
-      "is_new": false
+      "is_new": false,
+      "position": 3393187
     },
     {
       "type": "module_item",
@@ -1611,7 +1763,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393223",
-      "is_new": false
+      "is_new": false,
+      "position": 3393223
     },
     {
       "type": "module_item",
@@ -1626,7 +1779,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3393227
     },
     {
       "type": "module_item",
@@ -1641,7 +1795,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393229",
-      "is_new": false
+      "is_new": false,
+      "position": 3393229
     },
     {
       "type": "module_item",
@@ -1656,7 +1811,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3312869",
-      "is_new": false
+      "is_new": false,
+      "position": 3312869
     },
     {
       "type": "module_item",
@@ -1671,7 +1827,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393153",
-      "is_new": false
+      "is_new": false,
+      "position": 3393153
     },
     {
       "type": "module_item",
@@ -1686,7 +1843,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3393155",
-      "is_new": false
+      "is_new": false,
+      "position": 3393155
     },
     {
       "type": "module_item",
@@ -1701,7 +1859,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393157",
-      "is_new": false
+      "is_new": false,
+      "position": 3393157
     },
     {
       "type": "module_item",
@@ -1716,7 +1875,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393159",
-      "is_new": false
+      "is_new": false,
+      "position": 3393159
     },
     {
       "type": "module_item",
@@ -1731,7 +1891,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3393161",
-      "is_new": false
+      "is_new": false,
+      "position": 3393161
     },
     {
       "type": "module_item",
@@ -1746,7 +1907,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3393163",
-      "is_new": false
+      "is_new": false,
+      "position": 3393163
     },
     {
       "type": "module_item",
@@ -1761,7 +1923,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3393165",
-      "is_new": false
+      "is_new": false,
+      "position": 3393165
     },
     {
       "type": "module_item",
@@ -1776,7 +1939,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3393167",
-      "is_new": false
+      "is_new": false,
+      "position": 3393167
     },
     {
       "type": "module_item",
@@ -1791,7 +1955,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3414421",
-      "is_new": false
+      "is_new": false,
+      "position": 3414421
     },
     {
       "type": "module_item",
@@ -1806,7 +1971,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3414423",
-      "is_new": false
+      "is_new": false,
+      "position": 3414423
     },
     {
       "type": "module_item",
@@ -1821,7 +1987,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3414425",
-      "is_new": false
+      "is_new": false,
+      "position": 3414425
     },
     {
       "type": "module_item",
@@ -1836,7 +2003,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3414435",
-      "is_new": false
+      "is_new": false,
+      "position": 3414435
     },
     {
       "type": "module_item",
@@ -1851,7 +2019,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3414433",
-      "is_new": false
+      "is_new": false,
+      "position": 3414433
     },
     {
       "type": "module_item",
@@ -1866,7 +2035,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3420919",
-      "is_new": false
+      "is_new": false,
+      "position": 3420919
     },
     {
       "type": "module_item",
@@ -1881,7 +2051,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3417453",
-      "is_new": false
+      "is_new": false,
+      "position": 3417453
     },
     {
       "type": "module_item",
@@ -1896,7 +2067,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3420921",
-      "is_new": false
+      "is_new": false,
+      "position": 3420921
     },
     {
       "type": "module_item",
@@ -1911,7 +2083,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3420923
     },
     {
       "type": "module_item",
@@ -1926,7 +2099,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3420925",
-      "is_new": false
+      "is_new": false,
+      "position": 3420925
     },
     {
       "type": "module_item",
@@ -1941,7 +2115,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3420927",
-      "is_new": false
+      "is_new": false,
+      "position": 3420927
     },
     {
       "type": "module_item",
@@ -1956,7 +2131,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3417461",
-      "is_new": false
+      "is_new": false,
+      "position": 3417461
     },
     {
       "type": "module_item",
@@ -1971,7 +2147,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3423975
     },
     {
       "type": "module_item",
@@ -1986,7 +2163,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3423985",
-      "is_new": false
+      "is_new": false,
+      "position": 3423985
     },
     {
       "type": "module_item",
@@ -2001,7 +2179,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3423987",
-      "is_new": false
+      "is_new": false,
+      "position": 3423987
     },
     {
       "type": "module_item",
@@ -2016,7 +2195,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3423989",
-      "is_new": false
+      "is_new": false,
+      "position": 3423989
     },
     {
       "type": "module_item",
@@ -2031,7 +2211,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3423991",
-      "is_new": false
+      "is_new": false,
+      "position": 3423991
     },
     {
       "type": "module_item",
@@ -2046,7 +2227,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3423993",
-      "is_new": false
+      "is_new": false,
+      "position": 3423993
     },
     {
       "type": "module_item",
@@ -2061,7 +2243,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3423995",
-      "is_new": false
+      "is_new": false,
+      "position": 3423995
     },
     {
       "type": "module_item",
@@ -2076,7 +2259,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3423997",
-      "is_new": false
+      "is_new": false,
+      "position": 3423997
     },
     {
       "type": "module_item",
@@ -2091,7 +2275,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3423999",
-      "is_new": false
+      "is_new": false,
+      "position": 3423999
     },
     {
       "type": "module_item",
@@ -2106,7 +2291,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3424021",
-      "is_new": false
+      "is_new": false,
+      "position": 3424021
     },
     {
       "type": "module_item",
@@ -2121,7 +2307,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3427689",
-      "is_new": false
+      "is_new": false,
+      "position": 3427689
     },
     {
       "type": "module_item",
@@ -2136,7 +2323,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3427691",
-      "is_new": false
+      "is_new": false,
+      "position": 3427691
     },
     {
       "type": "module_item",
@@ -2151,7 +2339,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3428193",
-      "is_new": false
+      "is_new": false,
+      "position": 3428193
     },
     {
       "type": "module_item",
@@ -2166,7 +2355,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3432767",
-      "is_new": false
+      "is_new": false,
+      "position": 3432767
     },
     {
       "type": "module_item",
@@ -2181,7 +2371,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3432779
     },
     {
       "type": "module_item",
@@ -2196,7 +2387,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3432769",
-      "is_new": false
+      "is_new": false,
+      "position": 3432769
     },
     {
       "type": "module_item",
@@ -2211,7 +2403,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3432771",
-      "is_new": false
+      "is_new": false,
+      "position": 3432771
     },
     {
       "type": "module_item",
@@ -2226,7 +2419,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3432773",
-      "is_new": false
+      "is_new": false,
+      "position": 3432773
     },
     {
       "type": "module_item",
@@ -2241,7 +2435,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3432775",
-      "is_new": false
+      "is_new": false,
+      "position": 3432775
     },
     {
       "type": "module_item",
@@ -2256,7 +2451,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3432777",
-      "is_new": false
+      "is_new": false,
+      "position": 3432777
     },
     {
       "type": "module_item",
@@ -2271,7 +2467,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3434597",
-      "is_new": false
+      "is_new": false,
+      "position": 3434597
     },
     {
       "type": "module_item",
@@ -2286,7 +2483,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3446155
     },
     {
       "type": "module_item",
@@ -2301,7 +2499,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3446165",
-      "is_new": false
+      "is_new": false,
+      "position": 3446165
     },
     {
       "type": "module_item",
@@ -2316,7 +2515,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3434593",
-      "is_new": false
+      "is_new": false,
+      "position": 3434593
     },
     {
       "type": "module_item",
@@ -2331,7 +2531,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3434595",
-      "is_new": false
+      "is_new": false,
+      "position": 3434595
     },
     {
       "type": "module_item",
@@ -2346,7 +2547,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3434619",
-      "is_new": false
+      "is_new": false,
+      "position": 3434619
     },
     {
       "type": "module_item",
@@ -2361,7 +2563,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3435349",
-      "is_new": false
+      "is_new": false,
+      "position": 3435349
     },
     {
       "type": "module_item",
@@ -2376,7 +2579,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3448145",
-      "is_new": false
+      "is_new": false,
+      "position": 3448145
     },
     {
       "type": "module_item",
@@ -2391,7 +2595,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3448147",
-      "is_new": false
+      "is_new": false,
+      "position": 3448147
     },
     {
       "type": "module_item",
@@ -2406,7 +2611,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3448149",
-      "is_new": false
+      "is_new": false,
+      "position": 3448149
     },
     {
       "type": "module_item",
@@ -2421,7 +2627,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3448151",
-      "is_new": false
+      "is_new": false,
+      "position": 3448151
     },
     {
       "type": "module_item",
@@ -2436,7 +2643,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3445571",
-      "is_new": false
+      "is_new": false,
+      "position": 3445571
     },
     {
       "type": "module_item",
@@ -2451,7 +2659,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/90072/module_item_redirect/3445573",
-      "is_new": false
+      "is_new": false,
+      "position": 3445573
     },
     {
       "type": "module_item",
@@ -2466,7 +2675,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3445791
     },
     {
       "type": "module_item",
@@ -2481,7 +2691,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3445781",
-      "is_new": false
+      "is_new": false,
+      "position": 3445781
     },
     {
       "type": "module_item",
@@ -2496,7 +2707,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3445783",
-      "is_new": false
+      "is_new": false,
+      "position": 3445783
     },
     {
       "type": "module_item",
@@ -2511,7 +2723,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3445785",
-      "is_new": false
+      "is_new": false,
+      "position": 3445785
     },
     {
       "type": "module_item",
@@ -2526,7 +2739,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3445787",
-      "is_new": false
+      "is_new": false,
+      "position": 3445787
     },
     {
       "type": "module_item",
@@ -2541,7 +2755,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3445789",
-      "is_new": false
+      "is_new": false,
+      "position": 3445789
     },
     {
       "type": "module_item",
@@ -2556,7 +2771,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3448161",
-      "is_new": false
+      "is_new": false,
+      "position": 3448161
     },
     {
       "type": "module_item",
@@ -2571,7 +2787,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3450355
     },
     {
       "type": "module_item",
@@ -2586,7 +2803,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3450357",
-      "is_new": false
+      "is_new": false,
+      "position": 3450357
     },
     {
       "type": "module_item",
@@ -2601,7 +2819,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3450359",
-      "is_new": false
+      "is_new": false,
+      "position": 3450359
     },
     {
       "type": "module_item",
@@ -2616,7 +2835,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3450361",
-      "is_new": false
+      "is_new": false,
+      "position": 3450361
     },
     {
       "type": "module_item",
@@ -2631,7 +2851,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3450363
     },
     {
       "type": "module_item",
@@ -2646,7 +2867,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3450365",
-      "is_new": false
+      "is_new": false,
+      "position": 3450365
     },
     {
       "type": "module_item",
@@ -2661,7 +2883,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3450367
     },
     {
       "type": "module_item",
@@ -2676,7 +2899,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/90072/modules/items/3450369",
-      "is_new": false
+      "is_new": false,
+      "position": 3450369
     },
     {
       "type": "announcement",
@@ -2686,6 +2910,7 @@
       "course_code": "CIS 355 01 WI26",
       "title": "Assignment 2 Deployment",
       "message": "Hi all, For Assignment 2, you are required to deploy the Node.js server you have built, along with your organization\u2019s website and API, to a cloud-based server. You may use any platform such as Vercel, Cyclic, Render, or Heroku to host your application. Thank you &nbsp; Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-03-20T00:50:06Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1636028",
@@ -2699,6 +2924,7 @@
       "course_code": "CIS 355 01 WI26",
       "title": "Quiz 2 Scheduled for March 25 (JavaScript)",
       "message": "Dear all, Quiz 2 will be held on March 25, Wednesday and will cover JavaScript. It will also include content from Advanced JavaScript. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-03-16T12:14:13Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1634504",
@@ -2711,7 +2937,8 @@
       "course_name": "CIS 355 01 WI26",
       "course_code": "CIS 355 01 WI26",
       "title": "Reminder: Midterm Exam on February 25",
-      "message": "Dear all, This is a gentle reminder about your Midterm Exam on February 25. The exam will cover all concepts discussed before February 18; HTTP and NodeJS theory will not be included. Please note that the exam will be closed book and no materials will be allowed. It will be conducted during the full class period using the LockDown Browser (similar to the quizzes). The exam may include various types of questions, so please make sure to prepare thoroughly. Important Topics: 1. JavaScript code + JS DOM 2. CSS Grid 3. CSS Flex 4. HTML 5 5. NodeJS Modules Code 6. NodeJS HTTP Server Code Once again,",
+      "message": "Dear all, This is a gentle reminder about your Midterm Exam on February 25. The exam will cover all concepts discussed before February 18; HTTP and NodeJS theory will not be included. Please note that the exam will be closed book and no materials will be allowed. It will be conducted during the full class period using the LockDown Browser (similar to the quizzes). The exam may include various types of questions, so please make sure to prepare thoroughly. Important Topics: 1. JavaScript code + JS DOM 2. CSS Grid 3. CSS Flex 4. HTML 5 5. NodeJS Modules Code 6. NodeJS HTTP Server Code Once again, I encourage you to practice JavaScript thoroughly, as many of the questions will be similar to Quiz-2. Please make sure you carefully review all the code we worked on in class for above topics.&nbsp;",
+      "summary": [],
       "posted_at": "2026-02-21T20:25:59Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1628800",
@@ -2724,7 +2951,8 @@
       "course_name": "CIS 355 01 WI26",
       "course_code": "CIS 355 01 WI26",
       "title": "Regarding Quiz-2 || Grades do not matter; learning does. || IMPORTANT READ",
-      "message": "Dear All, I would like to begin with a saying that is especially relevant today: \"Grades do not matter; learning does.\" If you felt that today's questions were difficult, you must practice the provided code at home. I have always mentioned that you need to spend at least nine hours each week on this course to excel. The questions on the quiz were not difficult; each one was straightforward. Please take this quiz as an evaluation of your knowledge in JavaScript. Since we are working within a JavaScript-everywhere paradigm, it is very important that you have a strong foundation in JavaScript. Ev",
+      "message": "Dear All, I would like to begin with a saying that is especially relevant today: \"Grades do not matter; learning does.\" If you felt that today's questions were difficult, you must practice the provided code at home. I have always mentioned that you need to spend at least nine hours each week on this course to excel. The questions on the quiz were not difficult; each one was straightforward. Please take this quiz as an evaluation of your knowledge in JavaScript. Since we are working within a JavaScript-everywhere paradigm, it is very important that you have a strong foundation in JavaScript. Every piece of code we have covered so far will be used in Express.js, and later with database integration and React.js. Once again, I strongly encourage you to practice the provided code at home. That ",
+      "summary": [],
       "posted_at": "2026-02-18T17:21:28Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1627836",
@@ -2738,6 +2966,7 @@
       "course_code": "CIS 355 01 WI26",
       "title": "CSIS tutoring lab in SE 136-Winter-2026",
       "message": "Monday: &nbsp;12:30 PM \u2013 3:00 PM Tuesday: &nbsp;10:30 AM \u2013 1:00 PM Wednesday: &nbsp;6:30 PM \u2013 9:00 PM Thursday: &nbsp;10:30 AM \u2013 1:00 PM",
+      "summary": [],
       "posted_at": "2026-02-11T18:12:02Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1625716",
@@ -2750,7 +2979,8 @@
       "course_name": "CIS 355 01 WI26",
       "course_code": "CIS 355 01 WI26",
       "title": "Midterm Exam will be held on February 25",
-      "message": "Dear Students, The Midterm Exam will be held on February 25 . This exam will cover all concepts discussed up to February 18, including Node.js, which we will complete on that day. Please note that the exam will be closed book, and no materials will be allowed. It will be conducted during the full class period using the LockDown Browser (similar to the quizzes). The exam questions may include various types of problems, so please make sure to prepare thoroughly. If you need help understanding any challenging topics, please reach out to me. You are welcome to visit during office hours, or we can ",
+      "message": "Dear Students, The Midterm Exam will be held on February 25 . This exam will cover all concepts discussed up to February 18, including Node.js, which we will complete on that day. Please note that the exam will be closed book, and no materials will be allowed. It will be conducted during the full class period using the LockDown Browser (similar to the quizzes). The exam questions may include various types of problems, so please make sure to prepare thoroughly. If you need help understanding any challenging topics, please reach out to me. You are welcome to visit during office hours, or we can meet via Teams or Zoom. I am flexible with scheduling and truly care about your learning and success in this course. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-02-11T18:08:55Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1625714",
@@ -2764,6 +2994,7 @@
       "course_code": "CIS 355 01 WI26",
       "title": "Quiz 2 on JavaScript \u2013 February 18",
       "message": "Dear Students, Quiz 2 on JavaScript will be held on February 18. The quiz will cover the concepts, logic, and syntax of JavaScript. Please review all the code examples available on Canvas as well as the topics discussed during lectures. The quiz may include multiple-choice questions, true/false questions, debugging problems, and code-writing questions. Please make sure you practice thoroughly. JavaScript is a core component of this course, so it is very important that you develop a strong understanding of the material and gain sufficient hands-on practice. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-02-11T18:02:25Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1625710",
@@ -2776,7 +3007,8 @@
       "course_name": "CIS 355 01 WI26",
       "course_code": "CIS 355 01 WI26",
       "title": "Only for those with low attendance ==== Reminder Regarding Attendance Policy",
-      "message": "Dear Students, I am writing to remind you of the attendance policy outlined in the syllabus (see below). Until now, I have not enforced this policy strictly, as I understand that life circumstances can arise and everyone has many responsibilities. However, attending class regularly is an essential part of your commitment to this course. When you miss class, you miss the broader context of the code\u2014especially what we are doing and why we are doing it. As we are now approaching the middle of the semester, I have noticed that your attendance has been low, and I have not received any prior communi",
+      "message": "Dear Students, I am writing to remind you of the attendance policy outlined in the syllabus (see below). Until now, I have not enforced this policy strictly, as I understand that life circumstances can arise and everyone has many responsibilities. However, attending class regularly is an essential part of your commitment to this course. When you miss class, you miss the broader context of the code\u2014especially what we are doing and why we are doing it. As we are now approaching the middle of the semester, I have noticed that your attendance has been low, and I have not received any prior communication explaining your absences. As the instructor, it is my responsibility to support your success in this course. However, if you are not attending class, not informing me of your absences, and not ",
+      "summary": [],
       "posted_at": "2026-02-11T17:56:02Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1625684",
@@ -2789,7 +3021,8 @@
       "course_name": "CIS 355 01 WI26",
       "course_code": "CIS 355 01 WI26",
       "title": "Reminder: Quiz 1 on Wednesday || Practice Quiz is open.",
-      "message": "Dear all, This is a gentle reminder that Quiz 1 will be conducted on Wednesday. The quiz will cover frontend topics that we have discussed so far. There will be no questions from JavaScript. The quiz requires the use of the LockDown Browser, so please make sure it is installed on your system before attempting the quiz. A practice quiz has already been made available, which also requires the LockDown Browser. I strongly recommend that you attempt the practice quiz as soon as possible to ensure everything is working properly on your system. When attempting the practice quiz, you will be prompted",
+      "message": "Dear all, This is a gentle reminder that Quiz 1 will be conducted on Wednesday. The quiz will cover frontend topics that we have discussed so far. There will be no questions from JavaScript. The quiz requires the use of the LockDown Browser, so please make sure it is installed on your system before attempting the quiz. A practice quiz has already been made available, which also requires the LockDown Browser. I strongly recommend that you attempt the practice quiz as soon as possible to ensure everything is working properly on your system. When attempting the practice quiz, you will be prompted to install the LockDown Browser and will be provided with the appropriate download link. You may also download it directly using the link below: https://download.respondus.com/lockdown/download.php?i",
+      "summary": [],
       "posted_at": "2026-02-01T21:03:15Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1622672",
@@ -2803,6 +3036,7 @@
       "course_code": "CIS 355 01 WI26",
       "title": "Update to Module 5: CSS Flexbox",
       "message": "Dear all, I have updated Module 5 (CSS Flexbox) with a few additional content items. Feel free to test more properties using the code that we worked on in class. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-01-30T22:49:37Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1622428",
@@ -2815,7 +3049,8 @@
       "course_name": "CIS 355 01 WI26",
       "course_code": "CIS 355 01 WI26",
       "title": "Classwork Update \u2013 CSS Grid Assignment (for those who missed Jan 21)",
-      "message": "Dear all, For those who missed the January 21 class, please note the following classwork assignments that are currently open: Two submissions required: CW-CSS-Grid \u2013 PDF only (wireframes) CW-CSS-Grid \u2013 index.html only (code implementation) This is a new assignment, separate from previous weeks' work (related to mobirise). What you need to do: Watch the CSS Grid lecture videos Draw wireframes for both desktop and mobile layouts as demonstrated in the videos Submit your wireframes in a single PDF file Submit one index.html file that implements CSS Grid Deadline: You may submit both assignments b",
+      "message": "Dear all, For those who missed the January 21 class, please note the following classwork assignments that are currently open: Two submissions required: CW-CSS-Grid \u2013 PDF only (wireframes) CW-CSS-Grid \u2013 index.html only (code implementation) This is a new assignment, separate from previous weeks' work (related to mobirise). What you need to do: Watch the CSS Grid lecture videos Draw wireframes for both desktop and mobile layouts as demonstrated in the videos Submit your wireframes in a single PDF file Submit one index.html file that implements CSS Grid Deadline: You may submit both assignments by tomorrow evening. I am being flexible with the deadline due to the inclement weather, as I understand some of you were unable to attend class yesterday. However, please make every effort to attend c",
+      "summary": [],
       "posted_at": "2026-01-22T22:06:34Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1619772",
@@ -2828,7 +3063,8 @@
       "course_name": "CIS 355 01 WI26",
       "course_code": "CIS 355 01 WI26",
       "title": "CSS Grid Classwork Submission Instructions || No submission is required for the Mobirise website.",
-      "message": "Dear all, The CSS Grid classwork is now open for submission. There are two required submissions. For the first submission, please combine all wireframes and notes into a single PDF and submit it. Some tools: https://combinepdf.com/ &nbsp; https://www.camscanner.com/ (mobile app for scanning), you can also use the iPhone notes app.&nbsp; For the second submission, submit only the index.html file. All CSS must be included within the &lt;style&gt;&lt;/style&gt; tags in the same file. Please ensure that your webpage is functioning as intended and that the mobile CSS is working properly. Regarding ",
+      "message": "Dear all, The CSS Grid classwork is now open for submission. There are two required submissions. For the first submission, please combine all wireframes and notes into a single PDF and submit it. Some tools: https://combinepdf.com/ &nbsp; https://www.camscanner.com/ (mobile app for scanning), you can also use the iPhone notes app.&nbsp; For the second submission, submit only the index.html file. All CSS must be included within the &lt;style&gt;&lt;/style&gt; tags in the same file. Please ensure that your webpage is functioning as intended and that the mobile CSS is working properly. Regarding the Mobirise website, you do not need to do anything at this time. Next week, we will cover CSS Flexbox, and at that point, I will ask you to modify a few elements and submit the updated version. For ",
+      "summary": [],
       "posted_at": "2026-01-21T17:31:47Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/90072/discussion_topics/1619336",
@@ -2848,7 +3084,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1750334",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -2864,7 +3103,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1764030",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -2880,7 +3122,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1767838",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -2896,7 +3141,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1774776",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -2912,7 +3160,10 @@
       "grade": "60",
       "score": 60.0,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1750386",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -2928,7 +3179,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1764028",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -2944,7 +3198,10 @@
       "grade": "45",
       "score": 45.0,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1764032",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -2960,7 +3217,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1767836",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -2976,7 +3236,10 @@
       "grade": "30",
       "score": 30.0,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1767840",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -2992,7 +3255,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1772156",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3008,7 +3274,10 @@
       "grade": "30",
       "score": 30.0,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1750336",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3024,7 +3293,10 @@
       "grade": "30",
       "score": 30.0,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1767842",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3040,7 +3312,10 @@
       "grade": "30",
       "score": 30.0,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1772154",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3056,7 +3331,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89920/assignments/1772832",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "announcement",
@@ -3065,7 +3343,8 @@
       "course_name": "CS 331 70 WI26",
       "course_code": "CS 331 70 WI26",
       "title": "Remainder of Class",
-      "message": "Many students met face-to-face with me this morning and I was able to assess some of what has been covered/not covered in the class.&nbsp; The following items were decided upon: The original grading weights and scale from the syllabus will remain in tact. Assignment 4 was deleted and you are not responsible for it. I reviewed most of the Chapter 1, some of 2, 3 and 5 in class today.&nbsp; I will resume the review on Monday. There will be an in-class midterm where you will only need something to write with.&nbsp; This date is set in stone yet, but I believe it will be next Wednesday morning 3/2",
+      "message": "Many students met face-to-face with me this morning and I was able to assess some of what has been covered/not covered in the class.&nbsp; The following items were decided upon: The original grading weights and scale from the syllabus will remain in tact. Assignment 4 was deleted and you are not responsible for it. I reviewed most of the Chapter 1, some of 2, 3 and 5 in class today.&nbsp; I will resume the review on Monday. There will be an in-class midterm where you will only need something to write with.&nbsp; This date is set in stone yet, but I believe it will be next Wednesday morning 3/25/2026 from 8:30 - 10:20 in SE-223. The class elected to move to a synchronous online style.&nbsp; I will be lecturing live on Teams Monday and Wednesday mornings from 8:30 - 10:20.&nbsp; If you want/",
+      "summary": [],
       "posted_at": "2026-03-18T19:26:33Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1635586",
@@ -3079,6 +3358,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Midterm Exam",
       "message": "We will be discussing the midterm and what not tomorrow morning at 8:30 in SE 223. Regards, Scott James",
+      "summary": [],
       "posted_at": "2026-03-17T15:09:02Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1635162",
@@ -3092,6 +3372,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Quiz 3 Posted on Canvas",
       "message": "Dear Students, Quiz 3 has been posted on Canvas. You can find it under the Assignments link, listed as Quiz 3. Along with the quiz, you will find a document containing the rules of K-maps, which may be useful during the quiz. Please let me know if you have any questions. Best regards,",
+      "summary": [],
       "posted_at": null,
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1630248",
@@ -3105,6 +3386,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Assignment 3 Solution Posted",
       "message": "I have posted the solution for Assignment 3. You may review the answers and let me know if you have any questions.",
+      "summary": [],
       "posted_at": null,
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1629998",
@@ -3118,6 +3400,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Quiz 2 Posted on Canvas",
       "message": "Dear Students, Quiz 2 has been posted on Canvas. You can find it under the Assignments link, listed as Quiz 2. Along with the quiz, you will find a document containing all the Boolean algebra theorems that you may need. Additionally, there is another attachment with the rules of K-maps, which may be useful during the quiz. Please let me know if you have any questions. Best regards,",
+      "summary": [],
       "posted_at": null,
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1627016",
@@ -3131,6 +3414,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Quiz 1 Available on Canvas",
       "message": "Dear Students, Quiz 1 is now available on Canvas under the Assignments section.&nbsp; You may choose one of the following submission methods: Answer directly in the Word file electronically and submit it on Canvas. Write your answers on paper , take a clear picture, and upload it to Canvas. If you have any questions, please email me, and I will get back to you as soon as possible. Best regards,",
+      "summary": [],
       "posted_at": null,
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1623242",
@@ -3144,6 +3428,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Assignment 1 Solution Posted",
       "message": "I have posted the solution for Assignment 1. You may review the answers and let me know if you have any questions.",
+      "summary": [],
       "posted_at": null,
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1620922",
@@ -3157,6 +3442,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Weeks 8 and 9 Materials Now Available on Canvas",
       "message": "Dear Students, Weeks 8 and 9 materials and tasks are now available in the Assignments section on Canvas. These materials are for your information only\u2014no submission is required. You will find all tasks and recorded videos under the same link. Feel free to reach out if you have any questions. Best regards, Aos Mulahuwaish, Ph.D.",
+      "summary": [],
       "posted_at": "2026-03-10T05:48:05Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1632676",
@@ -3170,6 +3456,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Quiz 3 Study Guide Now Available on Canvas",
       "message": "Dear students, Quiz 3 study guide and quiz date have been posted\u2014these are located under the Assignments and Quizzes sections. Please make sure to review the study guide and practice the included questions, as they closely reflect the format of Quiz 3. Feel free to reach out if you have any questions. Best regards, Aos Mulahuwaish, Ph.D",
+      "summary": [],
       "posted_at": "2026-02-24T17:34:08Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1630000",
@@ -3182,7 +3469,8 @@
       "course_name": "CS 331 70 WI26",
       "course_code": "CS 331 70 WI26",
       "title": "Weeks 5 and 6 Materials and Quiz 2 Study Guide Now Available on Canvas",
-      "message": "Dear Students, Weeks 5 and 6 materials and tasks are now available in the Assignments section on Canvas. These materials are for your information only\u2014no submission is required. You will find all tasks and recorded videos under the same link. Additionally, the Quiz 2 for the chapter 2 study guide and quiz date have been posted\u2014these are located under the Assignments and Quizzes sections. Please make sure to review the study guide and practice the included questions, as they closely reflect the format of Quiz 2. Feel free to reach out if you have any questions. Best regards, Aos Mulahuwaish, Ph",
+      "message": "Dear Students, Weeks 5 and 6 materials and tasks are now available in the Assignments section on Canvas. These materials are for your information only\u2014no submission is required. You will find all tasks and recorded videos under the same link. Additionally, the Quiz 2 for the chapter 2 study guide and quiz date have been posted\u2014these are located under the Assignments and Quizzes sections. Please make sure to review the study guide and practice the included questions, as they closely reflect the format of Quiz 2. Feel free to reach out if you have any questions. Best regards, Aos Mulahuwaish, Ph.D.",
+      "summary": [],
       "posted_at": "2026-02-10T16:26:14Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1625314",
@@ -3196,6 +3484,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Assignment 2 Solution Posted",
       "message": "I have posted the solution for Assignment 2. You may review the answers and let me know if you have any questions.",
+      "summary": [],
       "posted_at": "2026-02-10T16:20:00Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1625306",
@@ -3209,6 +3498,7 @@
       "course_code": "CS 331 70 WI26",
       "title": "Weeks 3 and 4 Materials and Quiz 1 Study Guide Now Available on Canvas",
       "message": "Dear Students, Weeks 3 and 4 materials and tasks are now available in the Assignments section on Canvas. These materials are for your information only\u2014no submission is required. You will find all tasks and recorded videos under the same link. Additionally, the Quiz 1 study guide and quiz date have been posted\u2014these are located under the Assignments and Quizzes sections. Please make sure to review the study guide and practice the included questions, as they closely reflect the format of Quiz 1. Feel free to reach out if you have any questions. Best regards, Aos Mulahuwaish, Ph.D.",
+      "summary": [],
       "posted_at": "2026-01-27T00:19:49Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1620924",
@@ -3221,7 +3511,8 @@
       "course_name": "CS 331 70 WI26",
       "course_code": "CS 331 70 WI26",
       "title": "Navigating Your Course on Canvas: A Guide to Key Links",
-      "message": "Welcome to the Canvas course page! To make the most out of this class, it's crucial to familiarize yourself with the various links and sections available here. Below is a brief overview of what each link on the course's Canvas page has to offer: Announcements : Stay in the loop with course-related news. All important announcements will be posted here, so make sure to check this section regularly. Assignments : This is your one-stop shop for all coursework requirements. It includes detailed instructions for readings, tasks, and evaluations. This section also provides downloadable slides and sup",
+      "message": "Welcome to the Canvas course page! To make the most out of this class, it's crucial to familiarize yourself with the various links and sections available here. Below is a brief overview of what each link on the course's Canvas page has to offer: Announcements : Stay in the loop with course-related news. All important announcements will be posted here, so make sure to check this section regularly. Assignments : This is your one-stop shop for all coursework requirements. It includes detailed instructions for readings, tasks, and evaluations. This section also provides downloadable slides and supplementary materials to enrich your learning experience. Files : Organized into specific folders, this link is a resource library containing lecture slides, assignment files, and additional reading ma",
+      "summary": [],
       "posted_at": "2026-01-11T21:00:27Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89920/discussion_topics/1612888",
@@ -3241,7 +3532,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1758832",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3257,7 +3551,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1760620",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3273,7 +3570,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1764396",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3289,7 +3589,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1767402",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3305,7 +3608,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1764398",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3321,7 +3627,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1767404",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3337,7 +3646,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1767398",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3353,7 +3665,10 @@
       "grade": "5",
       "score": 5.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1767400",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3369,7 +3684,10 @@
       "grade": "3",
       "score": 3.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1765710",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3385,7 +3703,10 @@
       "grade": "10",
       "score": 10.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1771928",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3401,7 +3722,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1777052",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3417,7 +3741,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1774494",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3433,7 +3760,10 @@
       "grade": "10",
       "score": 10.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1764404",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3449,7 +3779,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1764406",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3465,7 +3798,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1776296",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3481,7 +3817,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1776298",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3497,7 +3836,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1767412",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3513,7 +3855,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1776306",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3529,7 +3874,10 @@
       "grade": "36",
       "score": 36.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1773196",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3545,7 +3893,10 @@
       "grade": "0",
       "score": 0.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1772550",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3561,7 +3912,10 @@
       "grade": "13",
       "score": 13.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1766646",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3577,7 +3931,10 @@
       "grade": "8",
       "score": 8.0,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1770724",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "assignment",
@@ -3593,7 +3950,10 @@
       "grade": null,
       "score": null,
       "url": "https://svsu.instructure.com/courses/89934/assignments/1776380",
-      "is_new": false
+      "is_new": false,
+      "ai_updated": false,
+      "ai_note": null,
+      "ai_source": null
     },
     {
       "type": "module_item",
@@ -3608,7 +3968,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3393293",
-      "is_new": false
+      "is_new": false,
+      "position": 3393293
     },
     {
       "type": "module_item",
@@ -3623,7 +3984,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3405721",
-      "is_new": false
+      "is_new": false,
+      "position": 3405721
     },
     {
       "type": "module_item",
@@ -3638,7 +4000,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3393279
     },
     {
       "type": "module_item",
@@ -3653,7 +4016,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3393281",
-      "is_new": false
+      "is_new": false,
+      "position": 3393281
     },
     {
       "type": "module_item",
@@ -3668,7 +4032,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3393283",
-      "is_new": false
+      "is_new": false,
+      "position": 3393283
     },
     {
       "type": "module_item",
@@ -3683,7 +4048,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3393285
     },
     {
       "type": "module_item",
@@ -3698,7 +4064,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3393287",
-      "is_new": false
+      "is_new": false,
+      "position": 3393287
     },
     {
       "type": "module_item",
@@ -3713,7 +4080,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3393289",
-      "is_new": false
+      "is_new": false,
+      "position": 3393289
     },
     {
       "type": "module_item",
@@ -3728,7 +4096,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3410953",
-      "is_new": false
+      "is_new": false,
+      "position": 3410953
     },
     {
       "type": "module_item",
@@ -3743,7 +4112,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3414895",
-      "is_new": false
+      "is_new": false,
+      "position": 3414895
     },
     {
       "type": "module_item",
@@ -3758,7 +4128,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3414897",
-      "is_new": false
+      "is_new": false,
+      "position": 3414897
     },
     {
       "type": "module_item",
@@ -3773,7 +4144,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3414899",
-      "is_new": false
+      "is_new": false,
+      "position": 3414899
     },
     {
       "type": "module_item",
@@ -3788,7 +4160,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3415635
     },
     {
       "type": "module_item",
@@ -3803,7 +4176,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3415641",
-      "is_new": false
+      "is_new": false,
+      "position": 3415641
     },
     {
       "type": "module_item",
@@ -3818,7 +4192,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3419243",
-      "is_new": false
+      "is_new": false,
+      "position": 3419243
     },
     {
       "type": "module_item",
@@ -3833,7 +4208,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3419199",
-      "is_new": false
+      "is_new": false,
+      "position": 3419199
     },
     {
       "type": "module_item",
@@ -3848,7 +4224,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3419949",
-      "is_new": false
+      "is_new": false,
+      "position": 3419949
     },
     {
       "type": "module_item",
@@ -3863,7 +4240,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3419245
     },
     {
       "type": "module_item",
@@ -3878,7 +4256,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3419187",
-      "is_new": false
+      "is_new": false,
+      "position": 3419187
     },
     {
       "type": "module_item",
@@ -3893,7 +4272,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3419191",
-      "is_new": false
+      "is_new": false,
+      "position": 3419191
     },
     {
       "type": "module_item",
@@ -3908,7 +4288,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3419249
     },
     {
       "type": "module_item",
@@ -3923,7 +4304,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3419307",
-      "is_new": false
+      "is_new": false,
+      "position": 3419307
     },
     {
       "type": "module_item",
@@ -3938,7 +4320,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3419329",
-      "is_new": false
+      "is_new": false,
+      "position": 3419329
     },
     {
       "type": "module_item",
@@ -3953,7 +4336,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3419327",
-      "is_new": false
+      "is_new": false,
+      "position": 3419327
     },
     {
       "type": "module_item",
@@ -3968,7 +4352,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3419331",
-      "is_new": false
+      "is_new": false,
+      "position": 3419331
     },
     {
       "type": "module_item",
@@ -3983,7 +4368,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425257",
-      "is_new": false
+      "is_new": false,
+      "position": 3425257
     },
     {
       "type": "module_item",
@@ -3998,7 +4384,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425271",
-      "is_new": false
+      "is_new": false,
+      "position": 3425271
     },
     {
       "type": "module_item",
@@ -4013,7 +4400,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425259",
-      "is_new": false
+      "is_new": false,
+      "position": 3425259
     },
     {
       "type": "module_item",
@@ -4028,7 +4416,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3425261",
-      "is_new": false
+      "is_new": false,
+      "position": 3425261
     },
     {
       "type": "module_item",
@@ -4043,7 +4432,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3425693
     },
     {
       "type": "module_item",
@@ -4058,7 +4448,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3425269",
-      "is_new": false
+      "is_new": false,
+      "position": 3425269
     },
     {
       "type": "module_item",
@@ -4073,7 +4464,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425697",
-      "is_new": false
+      "is_new": false,
+      "position": 3425697
     },
     {
       "type": "module_item",
@@ -4088,7 +4480,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425695",
-      "is_new": false
+      "is_new": false,
+      "position": 3425695
     },
     {
       "type": "module_item",
@@ -4103,7 +4496,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3425627",
-      "is_new": false
+      "is_new": false,
+      "position": 3425627
     },
     {
       "type": "module_item",
@@ -4118,7 +4512,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425629",
-      "is_new": false
+      "is_new": false,
+      "position": 3425629
     },
     {
       "type": "module_item",
@@ -4133,7 +4528,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3425685",
-      "is_new": false
+      "is_new": false,
+      "position": 3425685
     },
     {
       "type": "module_item",
@@ -4148,7 +4544,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425687",
-      "is_new": false
+      "is_new": false,
+      "position": 3425687
     },
     {
       "type": "module_item",
@@ -4163,7 +4560,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425699",
-      "is_new": false
+      "is_new": false,
+      "position": 3425699
     },
     {
       "type": "module_item",
@@ -4178,7 +4576,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425701",
-      "is_new": false
+      "is_new": false,
+      "position": 3425701
     },
     {
       "type": "module_item",
@@ -4193,7 +4592,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425715",
-      "is_new": false
+      "is_new": false,
+      "position": 3425715
     },
     {
       "type": "module_item",
@@ -4208,7 +4608,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3427811",
-      "is_new": false
+      "is_new": false,
+      "position": 3427811
     },
     {
       "type": "module_item",
@@ -4223,7 +4624,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3427693",
-      "is_new": false
+      "is_new": false,
+      "position": 3427693
     },
     {
       "type": "module_item",
@@ -4238,7 +4640,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3425721",
-      "is_new": false
+      "is_new": false,
+      "position": 3425721
     },
     {
       "type": "module_item",
@@ -4253,7 +4656,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3427799",
-      "is_new": false
+      "is_new": false,
+      "position": 3427799
     },
     {
       "type": "module_item",
@@ -4268,7 +4672,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3431193",
-      "is_new": false
+      "is_new": false,
+      "position": 3431193
     },
     {
       "type": "module_item",
@@ -4283,7 +4688,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3431195",
-      "is_new": false
+      "is_new": false,
+      "position": 3431195
     },
     {
       "type": "module_item",
@@ -4298,7 +4704,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3431119",
-      "is_new": false
+      "is_new": false,
+      "position": 3431119
     },
     {
       "type": "module_item",
@@ -4313,7 +4720,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3431121",
-      "is_new": false
+      "is_new": false,
+      "position": 3431121
     },
     {
       "type": "module_item",
@@ -4328,7 +4736,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3431123",
-      "is_new": false
+      "is_new": false,
+      "position": 3431123
     },
     {
       "type": "module_item",
@@ -4343,7 +4752,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3431139",
-      "is_new": false
+      "is_new": false,
+      "position": 3431139
     },
     {
       "type": "module_item",
@@ -4358,7 +4768,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3431197
     },
     {
       "type": "module_item",
@@ -4373,7 +4784,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3431127",
-      "is_new": false
+      "is_new": false,
+      "position": 3431127
     },
     {
       "type": "module_item",
@@ -4388,7 +4800,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3431125",
-      "is_new": false
+      "is_new": false,
+      "position": 3431125
     },
     {
       "type": "module_item",
@@ -4403,7 +4816,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3432505",
-      "is_new": false
+      "is_new": false,
+      "position": 3432505
     },
     {
       "type": "module_item",
@@ -4418,7 +4832,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3432783",
-      "is_new": false
+      "is_new": false,
+      "position": 3432783
     },
     {
       "type": "module_item",
@@ -4433,7 +4848,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3432785",
-      "is_new": false
+      "is_new": false,
+      "position": 3432785
     },
     {
       "type": "module_item",
@@ -4448,7 +4864,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3433445",
-      "is_new": false
+      "is_new": false,
+      "position": 3433445
     },
     {
       "type": "module_item",
@@ -4463,7 +4880,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3433447",
-      "is_new": false
+      "is_new": false,
+      "position": 3433447
     },
     {
       "type": "module_item",
@@ -4478,7 +4896,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3433449",
-      "is_new": false
+      "is_new": false,
+      "position": 3433449
     },
     {
       "type": "module_item",
@@ -4493,7 +4912,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3435957",
-      "is_new": false
+      "is_new": false,
+      "position": 3435957
     },
     {
       "type": "module_item",
@@ -4508,7 +4928,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3435933",
-      "is_new": false
+      "is_new": false,
+      "position": 3435933
     },
     {
       "type": "module_item",
@@ -4523,7 +4944,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3436073",
-      "is_new": false
+      "is_new": false,
+      "position": 3436073
     },
     {
       "type": "module_item",
@@ -4538,7 +4960,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3447265",
-      "is_new": false
+      "is_new": false,
+      "position": 3447265
     },
     {
       "type": "module_item",
@@ -4553,7 +4976,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3447267",
-      "is_new": false
+      "is_new": false,
+      "position": 3447267
     },
     {
       "type": "module_item",
@@ -4568,7 +4992,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3447273",
-      "is_new": false
+      "is_new": false,
+      "position": 3447273
     },
     {
       "type": "module_item",
@@ -4583,7 +5008,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3447271",
-      "is_new": false
+      "is_new": false,
+      "position": 3447271
     },
     {
       "type": "module_item",
@@ -4598,7 +5024,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3447279",
-      "is_new": false
+      "is_new": false,
+      "position": 3447279
     },
     {
       "type": "module_item",
@@ -4613,7 +5040,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3447295",
-      "is_new": false
+      "is_new": false,
+      "position": 3447295
     },
     {
       "type": "module_item",
@@ -4628,7 +5056,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules",
-      "is_new": false
+      "is_new": false,
+      "position": 3447703
     },
     {
       "type": "module_item",
@@ -4643,7 +5072,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3447705",
-      "is_new": false
+      "is_new": false,
+      "position": 3447705
     },
     {
       "type": "module_item",
@@ -4658,7 +5088,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3447707",
-      "is_new": false
+      "is_new": false,
+      "position": 3447707
     },
     {
       "type": "module_item",
@@ -4673,7 +5104,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3447201",
-      "is_new": false
+      "is_new": false,
+      "position": 3447201
     },
     {
       "type": "module_item",
@@ -4688,7 +5120,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/api/v1/courses/89934/module_item_redirect/3447203",
-      "is_new": false
+      "is_new": false,
+      "position": 3447203
     },
     {
       "type": "module_item",
@@ -4703,7 +5136,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3447721",
-      "is_new": false
+      "is_new": false,
+      "position": 3447721
     },
     {
       "type": "module_item",
@@ -4718,7 +5152,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3450291",
-      "is_new": false
+      "is_new": false,
+      "position": 3450291
     },
     {
       "type": "module_item",
@@ -4733,7 +5168,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3449737",
-      "is_new": false
+      "is_new": false,
+      "position": 3449737
     },
     {
       "type": "module_item",
@@ -4748,7 +5184,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3449735",
-      "is_new": false
+      "is_new": false,
+      "position": 3449735
     },
     {
       "type": "module_item",
@@ -4763,7 +5200,8 @@
       "completion_requirement": null,
       "completed": false,
       "url": "https://svsu.instructure.com/courses/89934/modules/items/3447889",
-      "is_new": false
+      "is_new": false,
+      "position": 3447889
     },
     {
       "type": "announcement",
@@ -4773,6 +5211,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "ALTER TABLE Instructions for Assignment 2",
       "message": "Hello everyone, I have added the \"ALTER TABLE in SQL.docx\" file under Module 10. You will need to modify the created table for Assignment 2 based on this. Please read the document carefully. It is straightforward, but let me know if you have any questions or confusion. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-03-18T02:36:29Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1635376",
@@ -4785,7 +5224,8 @@
       "course_name": "CS 411 90 WI26",
       "course_code": "CS 411 90 WI26",
       "title": "Important Announcement: Module Updates, Quiz 3 Details, and Assignment 2 Instructions",
-      "message": "Hello everyone, I wanted to provide you with some updates. If you have not been receiving notifications, I kindly request that you update your notification settings. To do this, go to your account and locate the notification options. Please ensure that you are set to receive notifications when new modules or assignments are added. I have added a new Module 8: Intermediate SQL, as well as Module 10. For Module 8, there are two lecture videos and two homework assignments as practice exercises. Please go through the lecture videos and complete the practice set. This is very important, as Quiz 3 w",
+      "message": "Hello everyone, I wanted to provide you with some updates. If you have not been receiving notifications, I kindly request that you update your notification settings. To do this, go to your account and locate the notification options. Please ensure that you are set to receive notifications when new modules or assignments are added. I have added a new Module 8: Intermediate SQL, as well as Module 10. For Module 8, there are two lecture videos and two homework assignments as practice exercises. Please go through the lecture videos and complete the practice set. This is very important, as Quiz 3 will be based on these questions. Regarding the employee database, I have provided SQL files. There are two .sql files: one to create the tables and another to populate the data. Please import these fi",
+      "summary": [],
       "posted_at": "2026-03-18T02:11:35Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1635366",
@@ -4799,6 +5239,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "Lecture 10 Uploaded: SQL CREATE and INSERT",
       "message": "Hi all, I have uploaded Lecture 10, which covers the SQL CREATE and INSERT commands. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-03-14T03:55:43Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1634072",
@@ -4811,7 +5252,8 @@
       "course_name": "CS 411 90 WI26",
       "course_code": "CS 411 90 WI26",
       "title": "Midterm Exam-SQL-Now Open \u2013 Closes Feb 27 at Midnight",
-      "message": "Dear all, The Midterm-Exam-SQL is now open and will close on Feb 27 at midnight. There are 20 questions, and you will have 1 hour and 20 minutes to complete the exam. Please make sure the LockDown Browser is working properly on your laptop before you begin. Please read each question carefully. There are hints provided in the questions where necessary. The required database schema is provided in each question. After each question, you will see the expected result showing what the output should look like when the query runs successfully. When writing your query, make sure that the column names m",
+      "message": "Dear all, The Midterm-Exam-SQL is now open and will close on Feb 27 at midnight. There are 20 questions, and you will have 1 hour and 20 minutes to complete the exam. Please make sure the LockDown Browser is working properly on your laptop before you begin. Please read each question carefully. There are hints provided in the questions where necessary. The required database schema is provided in each question. After each question, you will see the expected result showing what the output should look like when the query runs successfully. When writing your query, make sure that the column names match exactly as shown in the expected result. For example, if the expected result shows the columns as First_Name and Last_Name, you must write: SELECT Fname AS First_Name, Lname AS Last_Name Best of ",
+      "summary": [],
       "posted_at": "2026-02-25T22:17:28Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1630530",
@@ -4825,6 +5267,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "Quiz-2 should now be accessible without the LockDown Browser",
       "message": "Dear all, I have removed the LockDown Browser requirement from Quiz-2. Quiz-2 should now be accessible without the LockDown Browser, and you should be able to view your responses. If you are still experiencing any issues, please email me as soon as possible. If needed, I will unpublish and republish the quiz again to resolve the issue. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-02-24T17:36:10Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1630002",
@@ -4838,6 +5281,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "Quiz-2 Solutions Posted and Important Midterm Information",
       "message": "Dear all, I have uploaded the solutions for Quiz-2, along with a video explaining them. In Question 14, I mistakenly mixed up the prereq_id with the course_id. Please refer to the solution posted on Canvas for the correction. There is an assignment on Canvas titled \u201cQuiz-2-Self-Evaluation.\u201d Please complete it, as it will serve as great practice for your midterm. Also, make sure to review and practice the previous sets. The midterm will be similar in nature to Quiz-2 (but different schemas). However, there will be no nested query questions. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-02-24T00:26:32Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1629686",
@@ -4851,6 +5295,7 @@
       "course_code": "CS 411 90 WI26",
       "title": " Reminder \u2013 Midterm Exam (Feb 25\u201327)",
       "message": "Dear all, This is a gentle reminder about your Midterm Exam. The Midterm Exam will open on February 25 and close on February 27. The exam will consist of SQL queries where you will need to write SQL queries based on the given schema diagram. Please note that the questions will be similar to the Quiz-2 format. The exam will cover only the SQL topics that we have practiced up to Practice Set-3. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-02-21T20:10:59Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1628786",
@@ -4864,6 +5309,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "Quiz-2 Now Available on Canvas ",
       "message": "Dear all, Quiz-2 is now available on Canvas. Please note that you need a lockdown browser and a working camera for this quiz, as with the previous one. This is a closed-book quiz, and the required schema has been provided in each question. I once again suggest that you practice all the practice set questions and watch the lecture videos before you begin Quiz-2. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-02-19T04:54:07Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1628238",
@@ -4877,6 +5323,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "Module 7-SQL Practice Sets Solutions Uploaded",
       "message": "Dear all, I have uploaded the Module-7-SQL-Practice-Sets-Solution, which includes the solutions to all three SQL practice sets. Please review them carefully and let me know if you have any questions. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-02-18T19:12:44Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1627904",
@@ -4889,7 +5336,8 @@
       "course_name": "CS 411 90 WI26",
       "course_code": "CS 411 90 WI26",
       "title": "Module 6 Uploaded and - Quiz 2 will open on February 19 and close on February 22 ",
-      "message": "Dear All, If you have not received notifications about the addition of new modules, please make sure to update your notification settings in Canvas. I have uploaded the Module 6 lecture videos, which consist of SQL \u2013 Part 3. There is also Practice Set 3, which we worked on. I am moving Quiz 2 to open on February 19. When reviewing the statistics of the videos watched, I noticed that many of you have not even opened the videos from last month. I am concerned about how you plan to catch up with the upcoming materials, which will be more advanced than the current content. Quiz 2 will open on Febr",
+      "message": "Dear All, If you have not received notifications about the addition of new modules, please make sure to update your notification settings in Canvas. I have uploaded the Module 6 lecture videos, which consist of SQL \u2013 Part 3. There is also Practice Set 3, which we worked on. I am moving Quiz 2 to open on February 19. When reviewing the statistics of the videos watched, I noticed that many of you have not even opened the videos from last month. I am concerned about how you plan to catch up with the upcoming materials, which will be more advanced than the current content. Quiz 2 will open on February 19 and close on February 22. I will need a few days to grade it so that you will know where to focus your improvements before the midterm. The Midterm Exam will open on February 25 and close on F",
+      "summary": [],
       "posted_at": "2026-02-17T21:44:00Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1627676",
@@ -4903,6 +5351,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "New Lecture Videos Added \u2013 Module 5 -SQL Data + Query",
       "message": "Dear all, The new lecture videos have been added to Module 5: SQL Data + Query . Please make sure to watch the videos and practice the questions as soon as possible. To perform well on your upcoming quiz and midterm, it is essential that you practice writing SQL queries. Be sure to carefully review and work through the examples provided. I will be posting another lecture soon with additional practice questions. Thank you.",
+      "summary": [],
       "posted_at": "2026-02-14T22:31:31Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1626732",
@@ -4916,6 +5365,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "Upcoming Quiz 2 and Midterm Exam Dates",
       "message": "Dear All, Please note and mark your calendars: Quiz 2 on SQL will open on February 18 and close on February 20. The Midterm Exam will open on February 25 and close on February 27. I will provide more details on Monday. The recording of the SQL chapter will be uploaded soon. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-02-13T01:23:22Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1626334",
@@ -4929,6 +5379,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "CSIS tutoring lab in SE 136-Winter-2026",
       "message": "Monday: &nbsp;12:30 PM \u2013 3:00 PM Tuesday: &nbsp;10:30 AM \u2013 1:00 PM Wednesday: &nbsp;6:30 PM \u2013 9:00 PM Thursday: &nbsp;10:30 AM \u2013 1:00 PM",
+      "summary": [],
       "posted_at": "2026-02-11T18:15:05Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1625720",
@@ -4942,6 +5393,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "Quiz 1 Now Open - Due February 6th at 5:00 PM",
       "message": "Dear all, Please note that I have opened Quiz 1, and it will be due on February 6th at 5:00 PM. &nbsp; This week's lectures will be posted on Friday. Thank you",
+      "summary": [],
       "posted_at": "2026-02-04T23:17:28Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1623830",
@@ -4954,7 +5406,8 @@
       "course_name": "CS 411 90 WI26",
       "course_code": "CS 411 90 WI26",
       "title": "Important: Quiz 1 Schedule and Respondus LockDown Browser || Practice Quiz is open now.",
-      "message": "Dear all, This is to inform you that Quiz 1 will be conducted soon. The quiz will consist of conceptual questions from Module 1 and Module 2. The quiz will require the use of the LockDown Browser and will be proctored using Respondus Monitor. The quiz will open on Wednesday, and you will have Wednesday, Thursday, and Friday to complete it. Please ensure that you have installed the LockDown Browser before attempting the quiz. A practice quiz has already been made available, which also requires the LockDown Browser. I strongly recommend that you attempt the practice quiz as soon as possible to e",
+      "message": "Dear all, This is to inform you that Quiz 1 will be conducted soon. The quiz will consist of conceptual questions from Module 1 and Module 2. The quiz will require the use of the LockDown Browser and will be proctored using Respondus Monitor. The quiz will open on Wednesday, and you will have Wednesday, Thursday, and Friday to complete it. Please ensure that you have installed the LockDown Browser before attempting the quiz. A practice quiz has already been made available, which also requires the LockDown Browser. I strongly recommend that you attempt the practice quiz as soon as possible to ensure that everything is working properly on your system. When you attempt the practice quiz, you will be prompted to install the LockDown Browser and will be provided with the appropriate download li",
+      "summary": [],
       "posted_at": "2026-02-01T20:55:28Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1622666",
@@ -4968,6 +5421,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "Updated Content Posted on Canvas (Modules 1 and 2)",
       "message": "Dear all, If you have not received the notification regarding the lecture videos and assignments, please check Canvas. New lecture videos have been posted in Module 1 and Module 2, along with the corresponding classwork and homework. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-01-28T18:15:10Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1621668",
@@ -4980,7 +5434,8 @@
       "course_name": "CS 411 90 WI26",
       "course_code": "CS 411 90 WI26",
       "title": "Assignment Due Date- Jan 23rd and Weekly Lecture Updates",
-      "message": "Dear all, The assignment is due on January 23rd. I have unpublished and republished the video module. I remember updating both of these while I was on campus, so I am not sure why the changes did not take effect. Thank you to those who brought this to my attention. I will usually give you at least one week to complete classwork. For homework and assignments, the deadline will generally be more than one week. You can expect at least one lecture video per week. New lectures will typically be posted by every Friday. I usually record lectures earlier; however, sometimes unexpected issues arise. Fo",
+      "message": "Dear all, The assignment is due on January 23rd. I have unpublished and republished the video module. I remember updating both of these while I was on campus, so I am not sure why the changes did not take effect. Thank you to those who brought this to my attention. I will usually give you at least one week to complete classwork. For homework and assignments, the deadline will generally be more than one week. You can expect at least one lecture video per week. New lectures will typically be posted by every Friday. I usually record lectures earlier; however, sometimes unexpected issues arise. For example, the video posted today was originally recorded on Wednesday, but due to an issue with Zoom and the new microphone I was using, I had to record it again today. That being said, if you notice",
+      "summary": [],
       "posted_at": "2026-01-17T02:33:07Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1618074",
@@ -4994,6 +5449,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "The new lecture video and the classwork are out.",
       "message": "Dear all, Please watch the Module 0.1 and Module 0.2 videos. You need to install AMMPS and WordPress to explore the database. After watching the lecture videos, work on the classwork. If you have any questions, please post them in the open discussion on Canvas or reach out to me. Thank you.",
+      "summary": [],
       "posted_at": "2026-01-16T22:43:05Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1618022",
@@ -5006,7 +5462,8 @@
       "course_name": "CS 411 90 WI26",
       "course_code": "CS 411 90 WI26",
       "title": "In-Person Option for Database Course",
-      "message": "Dear all, I wanted to let you know that there is an in-person option available for this database course. The class meets Mondays and Wednesdays from 4:30\u20136:20 PM (ET) in P-242, Lecture Room . I highly recommend attending the in-person sessions if you are able to do so. While attendance is not mandatory , this is a hands-on course, and being present in class will be very beneficial. It will allow you to receive timely feedback and get the most out of the practical components. If you are considering switching from the asynchronous section (CS- 411* 90) to the in-person section (CS- 411* 01) , I ",
+      "message": "Dear all, I wanted to let you know that there is an in-person option available for this database course. The class meets Mondays and Wednesdays from 4:30\u20136:20 PM (ET) in P-242, Lecture Room . I highly recommend attending the in-person sessions if you are able to do so. While attendance is not mandatory , this is a hands-on course, and being present in class will be very beneficial. It will allow you to receive timely feedback and get the most out of the practical components. If you are considering switching from the asynchronous section (CS- 411* 90) to the in-person section (CS- 411* 01) , I believe there were approximately 10\u201312 seats available the last time I checked. Please confirm availability and eligibility with your academic advisor and the registrar before making any changes. Than",
+      "summary": [],
       "posted_at": "2026-01-14T18:50:05Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1616332",
@@ -5020,6 +5477,7 @@
       "course_code": "CS 411 90 WI26",
       "title": "First Course Video: Syllabus Introduction",
       "message": "Dear all, I have uploaded the first video introducing the syllabus. Please make sure to watch it. If you have any questions, feel free to reach out. You may need to click on the video link twice for it to open properly. Thank you Bibek Upadhayay, Ph.D.",
+      "summary": [],
       "posted_at": "2026-01-13T22:12:06Z",
       "due_at": null,
       "url": "https://svsu.instructure.com/courses/89934/discussion_topics/1615980",
@@ -9194,5 +9652,53 @@
       "url": "https://svsu.instructure.com/courses/83612/discussion_topics/1433838",
       "is_new": false
     }
+  ],
+  "ai_processed_ids": [
+    "announcement_1636028",
+    "announcement_1635366",
+    "announcement_1619336",
+    "announcement_1625720",
+    "announcement_1628238",
+    "announcement_1627016",
+    "announcement_1622428",
+    "announcement_1626334",
+    "announcement_1612888",
+    "announcement_1622666",
+    "announcement_1625314",
+    "announcement_1634072",
+    "announcement_1634504",
+    "announcement_1626732",
+    "announcement_1630248",
+    "announcement_1625684",
+    "announcement_1625714",
+    "announcement_1440604",
+    "announcement_1625306",
+    "announcement_1635376",
+    "announcement_1627904",
+    "announcement_1629686",
+    "announcement_1619772",
+    "announcement_1630530",
+    "announcement_1635162",
+    "announcement_1620924",
+    "announcement_1623830",
+    "announcement_1620922",
+    "announcement_1635586",
+    "announcement_1622672",
+    "announcement_1621668",
+    "announcement_1615980",
+    "announcement_1625716",
+    "announcement_1627676",
+    "announcement_1632676",
+    "announcement_1630000",
+    "announcement_1618074",
+    "announcement_1629998",
+    "announcement_1628800",
+    "announcement_1625710",
+    "announcement_1628786",
+    "announcement_1616332",
+    "announcement_1630002",
+    "announcement_1623242",
+    "announcement_1618022",
+    "announcement_1627836"
   ]
 }

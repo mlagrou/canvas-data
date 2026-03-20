@@ -19,12 +19,13 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install canvasapi python-dotenv
+        run: pip install canvasapi python-dotenv anthropic
 
       - name: Fetch Canvas data
         env:
           CANVAS_API_URL: ${{ secrets.CANVAS_API_URL }}
           CANVAS_API_KEY: ${{ secrets.CANVAS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python fetch_canvas.py
 
       - name: Commit and push if data changed
