@@ -34,7 +34,11 @@ def _strip_html(html: str) -> str:
 def _load_previous() -> dict:
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
+        # Handle old format (plain list of courses)
+        if isinstance(data, list):
+            return {}
+        return data
     return {}
 
 
@@ -219,7 +223,7 @@ def fetch_all() -> dict:
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
-    print(f"Saved → {DATA_FILE}")
+    print(f"Saved -> {DATA_FILE}")
     return data
 
 
